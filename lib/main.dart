@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:northern_lights/ui/northern_home.dart';
+import 'package:northern_lights/ui/northern_theme.dart';
 
 void main() => runApp(NorthernApp());
 
@@ -16,11 +17,8 @@ class NorthernApp extends StatelessWidget {
       title: 'Northern Lights',
       theme: ThemeData(
           primarySwatch: Colors.blue,
-          textTheme: TextTheme(
-              headline: TextStyle(
-                  color: Colors.white.withOpacity(0.9),
-                  fontSize: 46,
-                  fontWeight: FontWeight.w700))),
+          textTheme: NorthernTheme.textTheme
+      ),
       home: NorthernHome(title: 'Northern Lights'),
       debugShowCheckedModeBanner: false,
     );
