@@ -75,7 +75,6 @@ class _NorthernHomeState extends State<NorthernHome> {
               ],
               key: ValueKey(snap)),
         ),
-        // Add the icon button here
         IconButton(
           icon: Icon(
             Icons.shuffle,

@@ -20,8 +20,8 @@ class ShowcasePage extends StatelessWidget {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                Color(0x44000000),
-                Color(0xCC000000)
+                Color(0x441B1D1F),
+                Color(0xDD1B1D1F)
               ],
               stops: [0,0.8],
               begin: Alignment.topCenter,

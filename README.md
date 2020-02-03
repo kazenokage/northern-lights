@@ -1,6 +1,6 @@
 # Northern Lights
 
-A demo Flutter app made as a support material for Flutter presentation (Jan 2020)
+A demo Flutter app made as a support material for Flutter presentation (Jan 2020) turned to a Flutter UI playground.
 
 ## Getting Started
 
